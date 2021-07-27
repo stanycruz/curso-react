@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function(props) {
+export default function (props) {
     const status = props.nota >= 7 ? 'Aprovado' : 'Recuperaçáo'
     const notaInt = Math.ceil(props.nota)
     return (
