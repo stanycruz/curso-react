@@ -9,7 +9,7 @@ export default _ =>
     <div id="app">
         <Aleatorio
             min={1}
-            max={10}
+            max={60}
         />
         <h1>Fundamentos React (Arrow _)</h1>
         <Fragmento />
